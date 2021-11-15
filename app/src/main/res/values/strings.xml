@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">aplicacionviaje</string>
     <string name="serrania_chiribiquete">Serrania Chiribiquete</string>
+    <string name="serranía_de_chiribiquete">Serranía de Chiribiquete</string>
+    <string name="nombre_serrania_chiribiquete">nombre:Serranía de chiribiquete</string>
+    <string name="ubicación">Ubicaión: El Parque Nacional Natural Serranía de Chiribiquete se encuentra situado en la parte occidental del Escudo Guyanés y, por lo tanto, al occidente de la Guayana venezolana, al oriente de la Cordillera Oriental, al norte de la llanura amazónica, al occidente de la región del Río Negro superior y al sur de las sabanas herbáceas de la Orinoquía,</string>
+    <string name="temperatura">Temperatura: 24°C</string>
+    <string name="actividades">Actividades</string>
+    <string name="ubicacion">ubicaciòn</string>
 </resources>

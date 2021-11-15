@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Turchiribi</string>
+    <string name="serrania_chiribiquete">Serrania_Chiribiquete</string>
+    <string name="serrania_del_chiribiquete">SERRANIA_DEL_CHIRIBIQUETE</string>
+    <string name="una_aventura_digna_de_vivir_antes_de_morir">Una_Aventura_Digna_De_Vivir_Antes_De_morir</string>
 </resources>

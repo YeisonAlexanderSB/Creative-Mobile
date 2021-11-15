@@ -4,15 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/serrania_del_chiribiquete"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/una_aventura_digna_de_vivir_antes_de_morir"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#03A9F4"
+            android:text="Mapa"
+            android:textColorHighlight="#2196F3"
+            android:textColorHint="#03A9F4"
+            android:textSize="30sp"
+            app:rippleColor="#00BCD4"
+            app:strokeColor="#03A9F4" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nextFocusLeft="10dp"
+            android:nextFocusRight="10dp"
+            app:srcCompat="@drawable/Chiribiquete" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aventuras"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El Parque Nacional Natural Serranía de Chiribiquete se encuentra situado en la parte occidental del Escudo Guyanés y, por lo tanto, al occidente de la Guayana venezolana, al oriente de la Cordillera Oriental, al norte de la llanura amazónica, al occidente de la región del Río Negro superior y al sur de las sábanas herbáceas de la Orinoquía. El Parque Nacional Natural  Serranía de Chiribiquete, junto con el Parque Nacional Natural Yaigojé Apaporis, propende por la protección de un área continua incluida en tres distritos biogeográficos y en cuatro centros de endemismo pertenecientes a las Provincias biogeográficas de la Guyana y la Amazonia, En el 2018, este parque fue declarado patrimonio mixto de la humanidad"
+            android:textSize="14sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

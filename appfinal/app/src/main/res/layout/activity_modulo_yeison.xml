@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    tools:context=".ModuloYeison">
+
+    <TextView
+        android:id="@+id/textChiribiteque"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Bienvenidos a Chiribiteque"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:fontFamily="sans-serif-black"
+        android:text="¿Como LLegar?"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_content_34836358_20191216181306" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif-black"
+        android:text="Actividades"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Login"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Declarado por la unesco patrimonio de la humanidad, aqui podras vivir y sentir en plenitud. La temperatura del lugar es de 24°C a 32°C,Ubicado en la region amazonica colombiana"
+        android:textSize="20sp" />
+</LinearLayout>
